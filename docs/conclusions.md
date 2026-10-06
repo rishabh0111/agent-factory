@@ -1,6 +1,6 @@
 # Conclusions so far
 
-Distilled from research done 2026-10-03 to 2026-10-06: prior-art landscape, 14 role studies with task-level boundary maps, real agent-run businesses, and knowledge-base methods. Only conclusions are kept here. The underlying research lives in the `limbo` repo under `project-sketches/agent-and-software-factory/`.
+Distilled from research done 2026-10-03 to 2026-10-06: prior-art landscape, 14 role studies with task-level boundary maps, real agent-run businesses, and knowledge-base methods. Only conclusions are kept here.
 
 ## 1. What exists, and the gap
 
