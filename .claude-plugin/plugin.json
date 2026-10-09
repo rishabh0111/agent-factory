@@ -8,5 +8,6 @@
   },
   "homepage": "https://github.com/rishabh0111/agent-factory",
   "repository": "https://github.com/rishabh0111/agent-factory",
+  "license": "MIT",
   "keywords": ["skills", "agents", "company", "operations", "governance"]
 }

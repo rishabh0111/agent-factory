@@ -70,3 +70,7 @@ Roles are data in the company file, not separate skills, so a template can add o
 Early. The company file format, its validator, the four skills and two templates exist. Not yet run end to end on a real company. [docs/design.md](docs/design.md) covers the design and what comes next, [docs/skill-conventions.md](docs/skill-conventions.md) the rules every skill follows, and [docs/conclusions.md](docs/conclusions.md) the research behind it.
 
 Tests: `node --test tests/*.test.mjs`.
+
+## Licence
+
+MIT, see [LICENSE](LICENSE).
