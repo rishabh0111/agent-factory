@@ -1,0 +1,12 @@
+{
+  "name": "agent-factory",
+  "version": "0.1.0",
+  "description": "Agent skills that run a company from a company file: roles, decision rights, hand-offs, operating rhythm and guardrails.",
+  "author": {
+    "name": "Rishabh Sharma",
+    "url": "https://github.com/rishabh0111"
+  },
+  "homepage": "https://github.com/rishabh0111/agent-factory",
+  "repository": "https://github.com/rishabh0111/agent-factory",
+  "keywords": ["skills", "agents", "company", "operations", "governance"]
+}

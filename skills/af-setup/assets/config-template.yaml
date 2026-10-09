@@ -1,0 +1,31 @@
+# Written by the af-setup skill. Every agent-factory skill reads this file.
+# Use `pending` for a step that still needs a person and list how to finish it under `pending:`.
+
+version: 1                 # af-setup's config schema
+
+company_file: .agent-factory/company.yaml
+template: high_pace_startup@0.1.0   # identity.id@version the company file started from
+
+models:                    # model_class in company.yaml -> a model this host can run
+  standard: unknown
+  frontier: unknown
+  checker: unknown         # should differ from the classes it reviews
+review_diversity: true     # false when the host offers one model only; logged in decisions.md
+
+software_factory:
+  installed: unknown       # true | false | pending
+  product_repo: unknown    # path or forge project of the repo software-factory works in; none when nothing is built
+  policy_aligned: unknown  # true | false | pending: its config `policy:` matches validate.mjs --sf-policy
+
+people:                    # who holds each human seat (kind: human roles). One person may hold several seats.
+  - name: unknown          # e.g. Asha
+    seats: [ceo]           # every human role id appears under exactly one person
+    contact: unknown       # where their inbox answers come from: this session, or a channel such as email or chat
+
+inbox:
+  file: .agent-factory/inbox.md   # items waiting on a seat, grouped by seat
+  digest: daily                   # daily | weekly: how often agent-factory compiles each person's digest
+
+pending: []                # e.g.
+#  - item: software_factory.installed
+#    finish: npx skills@latest add rishabh0111/software-factory

@@ -1,0 +1,16 @@
+{
+  "name": "agent-factory",
+  "owner": {
+    "name": "Rishabh Sharma",
+    "url": "https://github.com/rishabh0111"
+  },
+  "description": "agent-factory skills as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "agent-factory",
+      "source": "./",
+      "description": "Run a whole company on agents from a company file.",
+      "category": "productivity"
+    }
+  ]
+}
