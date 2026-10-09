@@ -96,11 +96,41 @@ The "run it like a fast startup" goal needs operating mechanisms as data. Open m
 - **Sandbox for any agent with tools:** only a hardened container (non-root, read-only filesystem, no capabilities, resource limits, no secrets inside) behind an allowlist proxy blocked all eight escape probes while still reaching the model API. A plain host folder blocked 1 of 8, default Docker 2 of 8. The proxy must also inject the API key, which is untested.
 - **PDF parsing for knowledge packs (incomplete):** pymupdf4llm leads on papers and a born-digital book; Docling, Marker and MinerU didn't finish on CPU.
 
-## 9. Open questions
+## 9. Paperclip as a base
+
+From reading [paperclipai/paperclip](https://github.com/paperclipai/paperclip) at commit b9750b1 (2026-10-08), checked 2026-10-09.
+
+- **Large and fast-moving.** It is MIT-licensed TypeScript on Postgres, with about 99k stars, 158 schema files and 319 migrations. Releases come out weekly.
+- **No per-role decision rights.** `role` is a free string and `capabilities` is free text. Authority is per-agent permission grants plus board approvals (`packages/db/src/schema/agents.ts`, `approvals.ts`).
+- **Permissive defaults.**
+  - The Claude adapter skips permission prompts (`packages/adapters/claude-local/src/server/execute.ts`).
+  - New agents may create agents (`doc/agent-permission-defaults.md`).
+  - Board approval for new agents is off by default (`companies.ts`).
+  - Sandboxing is an opt-in plugin.
+- **A portable, vendor-neutral file format exists.** The Agent Companies spec (`docs/companies/companies-spec.md`, `agentcompanies/v1-draft`) uses markdown with frontmatter (`COMPANY.md`, `TEAM.md`, `AGENTS.md`) and allows vendor sidecars. Budgets and approvals are not part of it.
+- **Worth borrowing:** atomic checkout returning 409 on conflict, budget hard stops with a warning threshold, and goal ancestry through parent chains.
+
+Consequence: own a thin model for decision rights and guardrails, export it to the Agent Companies format, and treat Paperclip as one optional runtime. This answers question 2 below.
+
+## 10. Template mechanisms in published operating systems
+
+| Mechanism | Source |
+|---|---|
+| One directly responsible individual per decision; input from anyone, but no voting; disagree and commit | [GitLab, making decisions](https://handbook.gitlab.com/handbook/leadership/making-decisions/) |
+| Feature tier set by who buys, not who uses | [GitLab tiering](https://handbook.gitlab.com/handbook/product/product-processes/tiering-guidance-for-features/) |
+| Teams of 2-6 that own usage, quality and revenue for their area and release without external QA | [PostHog small teams](https://posthog.com/handbook/company/small-teams) |
+| Type 1 (irreversible, decided slowly) versus type 2 (reversible, decided fast by individuals) | [Amazon 2015 shareholder letter](https://s2.q4cdn.com/299287126/files/doc_financials/annual/2015-Letter-to-Shareholders.PDF) |
+| Input versus output metrics; output metrics are reported in the weekly business review, not debated | [Commoncog on the WBR](https://commoncog.com/the-amazon-weekly-business-review/) |
+| Single-threaded leader with an owns / does-not-own charter; PR/FAQ before building | [Working Backwards](https://workingbackwards.com/concepts/amazon-single-threaded-teams/) |
+| 6-week cycles, 2-week cooldown, betting table, appetite, circuit breaker, no backlog | [Shape Up](https://basecamp.com/shapeup/2.2-chapter-08) |
+
+These map onto template fields as data. [design.md](design.md) gives the resulting schema and its validation rules; this provisionally answers question 3. A second, contrasting template still has to show that the schema can express both playbooks.
+
+## 11. Open questions
 
 1. One agent per role, or fewer agents that load several roles? Evidence warns against many same-model agents; needs a test on multi-role scenarios.
-2. Build on Paperclip's data model, or a thinner control plane of our own?
-3. What exactly is in a company template, and how is one validated?
+2. ~~Build on Paperclip's data model, or a thinner control plane of our own?~~ Thin model of our own; see §9.
+3. What exactly is in a company template, and how is one validated? Static schema and rules exist (§10, design.md); validation by simulation is still open.
 4. How does the company keep state over months without drift?
 5. Does a knowledge pack measurably help, per role?
 6. Which jurisdictions to support first for the human floor and policy templates?
