@@ -1,0 +1,48 @@
+This licence covers af-product-management material adapted from
+MIT-licensed upstream product discovery and market research skills:
+the skills opportunity-solution-tree, interview-script,
+identify-assumptions, prioritize-assumptions, design-experiments,
+prioritize-features, customer-journey-map, market-sizing,
+market-segments, user-segmentation and user-personas; the parts of
+product-brainstorming (trio-ideation.md), synthesize-research
+(interview-summary.md, feedback-at-scale.md), metrics-review
+(dashboard-design.md and its good-metric criteria) and competitive-brief
+merged from it; and the commands brainstorm (ideas and experiments
+modes), discover, interview, setup-metrics, triage-requests,
+analyze-feedback, competitive-analysis and research-users.
+
+It also covers material adapted from the same upstream's product
+strategy and execution skills: the skills ansoff-matrix,
+pestle-analysis, porters-five-forces, swot-analysis, product-strategy,
+product-vision, value-proposition, business-model (with its Lean Canvas
+and Startup Canvas references), pricing-strategy (with its
+monetization-models reference), team-okrs, user-stories, pre-mortem,
+strategy-red-team, prioritization-frameworks, release-notes,
+sprint-retro, stakeholder-map, summarize-meeting, test-scenarios and
+dummy-dataset; the parts of write-spec (the lean eight-section PRD),
+sprint-planning and roadmap-update (references/outcome-roadmap.md)
+merged from it; and the commands market-scan, pricing, strategy,
+generate-data, meeting-notes, plan-okrs, red-team-prd, sprint,
+transform-roadmap, write-prd and write-stories.
+
+MIT License
+
+Copyright (c) 2026 Pawel Huryn
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
