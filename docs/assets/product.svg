@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-labelledby="il-product-t il-product-d">
+<title id="il-product-t">Product specialist</title>
+<desc id="il-product-d">A product specialist in glasses places a sticky note beside a roadmap board. Two milestones are done, the next is open and a flag marks the goal.</desc>
+<style>
+:root { color-scheme: light dark; }
+.bd { fill: #F3F5F6; }
+.pp { fill: #FFFFFF; stroke: #C9D1D6; stroke-width: 2; }
+.pf { fill: #FFFFFF; }
+.pl { fill: none; stroke: #C9D1D6; stroke-width: 3.5; stroke-linecap: round; }
+.dk { fill: #CDD5DA; }
+.dk2 { fill: #E1E7EA; }
+.gr { fill: #3A454B; }
+.grs { fill: none; stroke: #3A454B; stroke-linecap: round; stroke-linejoin: round; }
+.scr { fill: #121719; }
+.eye { fill: #E8EDEF; }
+.mu { fill: #77838A; }
+.mus { fill: none; stroke: #77838A; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ok { fill: #0B6A4C; }
+.oks { fill: #E2F1EA; }
+.okl { fill: none; stroke: #0B6A4C; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ck { fill: none; stroke: #FFFFFF; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+.no { fill: #B42318; }
+.nos { fill: #FBE4E1; }
+.wn { fill: #E3A83A; }
+.box { fill: #C99A62; }
+.box2 { fill: #A97C47; }
+.sl { fill: #4C6378; }
+.sla { fill: none; stroke: #4C6378; stroke-linecap: round; }
+.ink { fill: #121719; }
+.mono { font-family: "JetBrains Mono", "Cascadia Mono", Consolas, ui-monospace, Menlo, monospace; font-weight: 600; }
+@media (prefers-color-scheme: dark) {
+  .bd { fill: #161B1E; }
+  .pp { fill: #252D32; stroke: #3E4A50; }
+  .pf { fill: #252D32; }
+  .pl { stroke: #4E5B62; }
+  .dk { fill: #343E44; }
+  .dk2 { fill: #232A2E; }
+  .gr { fill: #56646C; }
+  .grs { stroke: #8C99A0; }
+  .scr { fill: #0B0F11; }
+  .mu { fill: #7D8A91; }
+  .mus { stroke: #7D8A91; }
+  .ok { fill: #5BD0A0; }
+  .oks { fill: #13342A; }
+  .okl { stroke: #5BD0A0; }
+  .ck { stroke: #062118; }
+  .no { fill: #FF8A7A; }
+  .nos { fill: #3D1C18; }
+  .sl { fill: #8EA3B8; }
+  .sla { stroke: #8EA3B8; }
+  .ink { fill: #E8EDEF; }
+}
+.ac { fill: #76660A; }
+.acs { fill: none; stroke: #76660A; stroke-linecap: round; stroke-linejoin: round; }
+.ar { fill: none; stroke: #76660A; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
+.ha { fill: #F3EFD3; }
+@media (prefers-color-scheme: dark) { .ac { fill: #D9C65A; } .acs, .ar { stroke: #D9C65A; } .ha { fill: #302C10; } }
+</style>
+<defs><clipPath id="il-product-c"><rect x="8" y="8" width="304" height="304" rx="32"/></clipPath></defs>
+<rect class="bd" x="8" y="8" width="304" height="304" rx="32"/><g clip-path="url(#il-product-c)"><circle class="ha" cx="160" cy="150" r="114"/><rect class="pp" x="170" y="42" width="126" height="86" rx="10"/><rect class="ac" fill-opacity=".45" x="184" y="56" width="44" height="9" rx="4"/><rect class="ac" x="214" y="70" width="52" height="9" rx="4"/><path class="mus" d="M186,104H280"/><circle class="ok" cx="192" cy="104" r="7"/><path class="ck" style="stroke-width:2.0" d="M188.8,104.3l2.2,2.2l4.4,-4.7"/><circle class="ok" cx="222" cy="104" r="7"/><path class="ck" style="stroke-width:2.0" d="M218.8,104.3l2.2,2.2l4.4,-4.7"/><circle class="pf" style="stroke-width:3" cx="252" cy="104" r="6"/><circle class="acs" style="stroke-width:3" cx="252" cy="104" r="6"/><path class="grs" style="stroke-width:3" d="M280,104V82"/><path class="ac" d="M280,82h14l-4,6l4,6h-14z"/><g transform="translate(42,52) rotate(-8)"><rect fill="#F2D06B" width="38" height="38" rx="3"/><path fill="none" stroke="#000" stroke-opacity=".22" stroke-width="3" stroke-linecap="round" d="M8,13h22M8,22h15"/></g><g transform="translate(84,40) rotate(6)"><rect fill="#A9CBF2" width="38" height="38" rx="3"/><path fill="none" stroke="#000" stroke-opacity=".22" stroke-width="3" stroke-linecap="round" d="M8,13h22M8,22h15"/></g><g transform="translate(114,128) scale(1.0)"><rect fill="#E8B894" x="-8" y="14" width="16" height="26" rx="6"/><path class="ac" d="M-46,96V64a30,30 0 0 1 30,-30h32a30,30 0 0 1 30,30V96z"/><path fill="#E8B894" d="M-11,33h22l-11,14z"/><circle fill="#E8B894" r="26"/><circle fill="#B8B2AA" cx="-21" cy="-10" r="10"/><circle fill="#B8B2AA" cx="-10" cy="-21" r="11"/><circle fill="#B8B2AA" cx="6" cy="-23" r="11"/><circle fill="#B8B2AA" cx="19" cy="-14" r="10"/><circle fill="#B8B2AA" cx="-26" cy="2" r="7"/><circle fill="#B8B2AA" cx="26" cy="0" r="7"/><circle fill="#E07A5F" fill-opacity=".3" cx="-15" cy="9" r="4.5"/><circle fill="#E07A5F" fill-opacity=".3" cx="15" cy="9" r="4.5"/><circle fill="#1F2427" cx="-9" cy="1" r="2.8"/><circle fill="#1F2427" cx="9" cy="1" r="2.8"/><path fill="none" stroke="#1F2427" stroke-width="2.4" stroke-linecap="round" d="M-7,10q7,7 14,0"/><g fill="none" stroke="#1F2427" stroke-width="2"><circle cx="-9" cy="1" r="7.5"/><circle cx="9" cy="1" r="7.5"/><path d="M-1.5,0h3"/></g></g><g transform="translate(258,150) rotate(6)"><rect fill="#F4B3C5" width="38" height="38" rx="3"/><path fill="none" stroke="#000" stroke-opacity=".22" stroke-width="3" stroke-linecap="round" d="M8,13h22M8,22h15"/></g><g transform="translate(212,148) rotate(-5)"><rect fill="#F2D06B" width="38" height="38" rx="3"/><path fill="none" stroke="#000" stroke-opacity=".22" stroke-width="3" stroke-linecap="round" d="M8,13h22M8,22h15"/></g><path fill="none" stroke="#000" stroke-opacity=".14" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M144,178 L200,172"/><path class="ar" d="M144,178 L200,172"/><circle fill="#E8B894" cx="200" cy="172" r="8"/><rect class="dk2" x="58" y="236" width="204" height="60" rx="6"/><rect class="dk" x="30" y="222" width="260" height="16" rx="8"/><g transform="translate(186,190) rotate(3)"><rect fill="#A9CBF2" width="38" height="38" rx="3"/><path fill="none" stroke="#000" stroke-opacity=".22" stroke-width="3" stroke-linecap="round" d="M8,13h22M8,22h15"/></g><g transform="translate(52,190) rotate(-4)"><rect fill="#F4B3C5" width="38" height="38" rx="3"/><path fill="none" stroke="#000" stroke-opacity=".22" stroke-width="3" stroke-linecap="round" d="M8,13h22M8,22h15"/></g></g>
+</svg>

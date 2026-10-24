@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-labelledby="il-hr-t il-hr-d">
+<title id="il-hr-t">HR specialist</title>
+<desc id="il-hr-d">An HR specialist reaches for a fan of three people cards; the front card has a green check. A small plus badge floats beside them.</desc>
+<style>
+:root { color-scheme: light dark; }
+.bd { fill: #F3F5F6; }
+.pp { fill: #FFFFFF; stroke: #C9D1D6; stroke-width: 2; }
+.pf { fill: #FFFFFF; }
+.pl { fill: none; stroke: #C9D1D6; stroke-width: 3.5; stroke-linecap: round; }
+.dk { fill: #CDD5DA; }
+.dk2 { fill: #E1E7EA; }
+.gr { fill: #3A454B; }
+.grs { fill: none; stroke: #3A454B; stroke-linecap: round; stroke-linejoin: round; }
+.scr { fill: #121719; }
+.eye { fill: #E8EDEF; }
+.mu { fill: #77838A; }
+.mus { fill: none; stroke: #77838A; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ok { fill: #0B6A4C; }
+.oks { fill: #E2F1EA; }
+.okl { fill: none; stroke: #0B6A4C; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ck { fill: none; stroke: #FFFFFF; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+.no { fill: #B42318; }
+.nos { fill: #FBE4E1; }
+.wn { fill: #E3A83A; }
+.box { fill: #C99A62; }
+.box2 { fill: #A97C47; }
+.sl { fill: #4C6378; }
+.sla { fill: none; stroke: #4C6378; stroke-linecap: round; }
+.ink { fill: #121719; }
+.mono { font-family: "JetBrains Mono", "Cascadia Mono", Consolas, ui-monospace, Menlo, monospace; font-weight: 600; }
+@media (prefers-color-scheme: dark) {
+  .bd { fill: #161B1E; }
+  .pp { fill: #252D32; stroke: #3E4A50; }
+  .pf { fill: #252D32; }
+  .pl { stroke: #4E5B62; }
+  .dk { fill: #343E44; }
+  .dk2 { fill: #232A2E; }
+  .gr { fill: #56646C; }
+  .grs { stroke: #8C99A0; }
+  .scr { fill: #0B0F11; }
+  .mu { fill: #7D8A91; }
+  .mus { stroke: #7D8A91; }
+  .ok { fill: #5BD0A0; }
+  .oks { fill: #13342A; }
+  .okl { stroke: #5BD0A0; }
+  .ck { stroke: #062118; }
+  .no { fill: #FF8A7A; }
+  .nos { fill: #3D1C18; }
+  .sl { fill: #8EA3B8; }
+  .sla { stroke: #8EA3B8; }
+  .ink { fill: #E8EDEF; }
+}
+.ac { fill: #B23A62; }
+.acs { fill: none; stroke: #B23A62; stroke-linecap: round; stroke-linejoin: round; }
+.ar { fill: none; stroke: #B23A62; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
+.ha { fill: #F8E3EA; }
+@media (prefers-color-scheme: dark) { .ac { fill: #F290B0; } .acs, .ar { stroke: #F290B0; } .ha { fill: #3A1B26; } }
+</style>
+<defs><clipPath id="il-hr-c"><rect x="8" y="8" width="304" height="304" rx="32"/></clipPath></defs>
+<rect class="bd" x="8" y="8" width="304" height="304" rx="32"/><g clip-path="url(#il-hr-c)"><circle class="ha" cx="160" cy="150" r="114"/><circle class="ac" cx="62" cy="62" r="16"/><path class="ck" d="M62,54v16M54,62h16"/><g transform="translate(204,154) rotate(-16)"><rect class="pp" x="-32" y="-44" width="64" height="86" rx="8"/><circle fill="#F1C7A5" cy="-20" r="11"/><path fill="#2D67B3" d="M-17,6a17,14 0 0 1 34,0z"/><path class="pl" style="stroke-width:3" d="M-18,18h36M-12,28h24"/></g><g transform="translate(264,154) rotate(16)"><rect class="pp" x="-32" y="-44" width="64" height="86" rx="8"/><circle fill="#5C3A24" cy="-20" r="11"/><path fill="#0F7C80" d="M-17,6a17,14 0 0 1 34,0z"/><path class="pl" style="stroke-width:3" d="M-18,18h36M-12,28h24"/></g><g transform="translate(234,142) rotate(0)"><rect class="pp" x="-32" y="-44" width="64" height="86" rx="8"/><circle fill="#D9A273" cy="-20" r="11"/><path class="ac" d="M-17,6a17,14 0 0 1 34,0z"/><path class="pl" style="stroke-width:3" d="M-18,18h36M-12,28h24"/><circle class="ok" cx="26" cy="-40" r="11"/><path class="ck" style="stroke-width:3.2" d="M21.0,-39.5l3.5,3.5l6.9,-7.3"/></g><g transform="translate(108,128) scale(1.0)"><rect fill="#A86B45" x="-8" y="14" width="16" height="26" rx="6"/><path class="ac" d="M-46,96V64a30,30 0 0 1 30,-30h32a30,30 0 0 1 30,30V96z"/><path fill="#A86B45" d="M-11,33h22l-11,14z"/><circle fill="#A86B45" r="26"/><path fill="#1A1A1A" d="M-27,2C-29,-20 -14,-30 0,-30C16,-30 29,-20 27,0C22,-10 12,-15 2,-13C-8,-11 -15,-4 -27,2z"/><circle fill="#1A1A1A" cy="-33" r="11"/><circle fill="#E07A5F" fill-opacity=".3" cx="-15" cy="9" r="4.5"/><circle fill="#E07A5F" fill-opacity=".3" cx="15" cy="9" r="4.5"/><circle fill="#1F2427" cx="-9" cy="1" r="2.8"/><circle fill="#1F2427" cx="9" cy="1" r="2.8"/><path fill="none" stroke="#1F2427" stroke-width="2.4" stroke-linecap="round" d="M-7,10q7,7 14,0"/></g><path fill="none" stroke="#000" stroke-opacity=".14" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M138,180 L184,188"/><path class="ar" d="M138,180 L184,188"/><circle fill="#A86B45" cx="184" cy="188" r="8"/><rect class="dk2" x="58" y="236" width="204" height="60" rx="6"/><rect class="dk" x="30" y="222" width="260" height="16" rx="8"/><rect class="ac" x="48" y="200" width="34" height="22" rx="4"/><rect class="pp" x="54" y="196" width="34" height="26" rx="4"/></g>
+</svg>

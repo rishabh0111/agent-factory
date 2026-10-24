@@ -1,0 +1,114 @@
+[
+  {
+    "id": "af-customer-support",
+    "agent": "support-specialist",
+    "name": "Support",
+    "line": "Triages tickets, drafts replies, writes help articles.",
+    "ask": "Triage today’s tickets and draft the urgent replies.",
+    "illustration": "assets/support.svg",
+    "accent": "blue"
+  },
+  {
+    "id": "af-sales",
+    "agent": "sales-specialist",
+    "name": "Sales",
+    "line": "Researches accounts, preps calls, drafts outreach, forecasts.",
+    "ask": "Prepare my call with Acme tomorrow.",
+    "illustration": "assets/sales.svg",
+    "accent": "orange"
+  },
+  {
+    "id": "af-finance",
+    "agent": "finance-specialist",
+    "name": "Finance",
+    "line": "Journal entries, reconciliations, month-end close, variance.",
+    "ask": "Explain why marketing spend ran over budget in March.",
+    "illustration": "assets/finance.svg",
+    "accent": "teal"
+  },
+  {
+    "id": "af-legal",
+    "agent": "legal-specialist",
+    "name": "Legal",
+    "line": "Contracts, NDAs, privacy policies, compliance risk.",
+    "ask": "Triage this NDA before I sign it.",
+    "illustration": "assets/legal.svg",
+    "accent": "purple"
+  },
+  {
+    "id": "af-human-resources",
+    "agent": "hr-specialist",
+    "name": "HR",
+    "line": "Offers, interview plans, onboarding, reviews, pay.",
+    "ask": "Draft an offer for our new backend engineer.",
+    "illustration": "assets/hr.svg",
+    "accent": "rose"
+  },
+  {
+    "id": "af-operations",
+    "agent": "ops-specialist",
+    "name": "Operations",
+    "line": "Process docs, runbooks, change requests, vendor reviews.",
+    "ask": "Turn our refund steps into a runbook.",
+    "illustration": "assets/operations.svg",
+    "accent": "amber"
+  },
+  {
+    "id": "af-data",
+    "agent": "data-specialist",
+    "name": "Data",
+    "line": "Explores data, writes SQL, reads A/B tests and cohorts.",
+    "ask": "Which signup channel kept users longest last quarter?",
+    "illustration": "assets/data.svg",
+    "accent": "indigo"
+  },
+  {
+    "id": "af-design",
+    "agent": "design-specialist",
+    "name": "Design",
+    "line": "Critiques designs, checks accessibility, writes UX copy.",
+    "ask": "Review this checkout screen for accessibility.",
+    "illustration": "assets/design.svg",
+    "accent": "magenta"
+  },
+  {
+    "id": "af-product-management",
+    "agent": "product-specialist",
+    "name": "Product",
+    "line": "Discovery, strategy, specs, roadmaps and sprints.",
+    "ask": "Check customers need bulk export, then spec it.",
+    "illustration": "assets/product.svg",
+    "accent": "olive",
+    "interviews": ["product-brainstorming"]
+  },
+  {
+    "id": "af-marketing",
+    "agent": "marketing-specialist",
+    "name": "Marketing",
+    "line": "Positioning, GTM, copy, SEO, ads and launches.",
+    "ask": "Write the launch email for our new plan.",
+    "illustration": "assets/marketing.svg",
+    "accent": "red",
+    "interviews": ["product-marketing"]
+  },
+  {
+    "id": "af-leadership",
+    "agent": "ceo-advisor",
+    "name": "CEO advisor",
+    "line": "Reviews strategy, scope and plans before you commit.",
+    "ask": "Is this plan too big for one quarter?",
+    "illustration": "assets/ceo.svg",
+    "accent": "slate",
+    "interviews": ["ceo-review", "office-hours"]
+  },
+  {
+    "id": "af-small-business",
+    "agent": "small-business-specialist",
+    "name": "Small business",
+    "line": "Invoices, payroll, cash flow, pipeline and support.",
+    "ask": "Chase the invoices more than 30 days overdue.",
+    "illustration": "assets/small-business.svg",
+    "accent": "brown",
+    "interviews": ["brand-style", "payroll-prep", "plan-payroll", "smb-onboard"]
+  }
+]

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-labelledby="il-data-t il-data-d">
+<title id="il-data-t">Data specialist</title>
+<desc id="il-data-d">A data specialist in glasses points at a board with a bar chart, a line and a small pie chart. A table of rows sits on the desk.</desc>
+<style>
+:root { color-scheme: light dark; }
+.bd { fill: #F3F5F6; }
+.pp { fill: #FFFFFF; stroke: #C9D1D6; stroke-width: 2; }
+.pf { fill: #FFFFFF; }
+.pl { fill: none; stroke: #C9D1D6; stroke-width: 3.5; stroke-linecap: round; }
+.dk { fill: #CDD5DA; }
+.dk2 { fill: #E1E7EA; }
+.gr { fill: #3A454B; }
+.grs { fill: none; stroke: #3A454B; stroke-linecap: round; stroke-linejoin: round; }
+.scr { fill: #121719; }
+.eye { fill: #E8EDEF; }
+.mu { fill: #77838A; }
+.mus { fill: none; stroke: #77838A; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ok { fill: #0B6A4C; }
+.oks { fill: #E2F1EA; }
+.okl { fill: none; stroke: #0B6A4C; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ck { fill: none; stroke: #FFFFFF; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+.no { fill: #B42318; }
+.nos { fill: #FBE4E1; }
+.wn { fill: #E3A83A; }
+.box { fill: #C99A62; }
+.box2 { fill: #A97C47; }
+.sl { fill: #4C6378; }
+.sla { fill: none; stroke: #4C6378; stroke-linecap: round; }
+.ink { fill: #121719; }
+.mono { font-family: "JetBrains Mono", "Cascadia Mono", Consolas, ui-monospace, Menlo, monospace; font-weight: 600; }
+@media (prefers-color-scheme: dark) {
+  .bd { fill: #161B1E; }
+  .pp { fill: #252D32; stroke: #3E4A50; }
+  .pf { fill: #252D32; }
+  .pl { stroke: #4E5B62; }
+  .dk { fill: #343E44; }
+  .dk2 { fill: #232A2E; }
+  .gr { fill: #56646C; }
+  .grs { stroke: #8C99A0; }
+  .scr { fill: #0B0F11; }
+  .mu { fill: #7D8A91; }
+  .mus { stroke: #7D8A91; }
+  .ok { fill: #5BD0A0; }
+  .oks { fill: #13342A; }
+  .okl { stroke: #5BD0A0; }
+  .ck { stroke: #062118; }
+  .no { fill: #FF8A7A; }
+  .nos { fill: #3D1C18; }
+  .sl { fill: #8EA3B8; }
+  .sla { stroke: #8EA3B8; }
+  .ink { fill: #E8EDEF; }
+}
+.ac { fill: #4B4FC0; }
+.acs { fill: none; stroke: #4B4FC0; stroke-linecap: round; stroke-linejoin: round; }
+.ar { fill: none; stroke: #4B4FC0; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
+.ha { fill: #E6E7F8; }
+@media (prefers-color-scheme: dark) { .ac { fill: #A3A6F5; } .acs, .ar { stroke: #A3A6F5; } .ha { fill: #1F2043; } }
+</style>
+<defs><clipPath id="il-data-c"><rect x="8" y="8" width="304" height="304" rx="32"/></clipPath></defs>
+<rect class="bd" x="8" y="8" width="304" height="304" rx="32"/><g clip-path="url(#il-data-c)"><circle class="ha" cx="160" cy="150" r="114"/><rect class="pp" x="174" y="40" width="122" height="94" rx="10"/><rect class="ac" x="188" y="96" width="13" height="24" rx="3"/><rect class="ac" x="207" y="80" width="13" height="40" rx="3"/><rect class="ac" x="226" y="90" width="13" height="30" rx="3"/><rect class="ac" x="245" y="64" width="13" height="56" rx="3"/><path class="grs" style="stroke-width:3" d="M190,92L210,76L230,84L254,58"/><circle class="gr" cx="254" cy="58" r="4"/><circle class="ha" cx="276" cy="62" r="12"/><path class="ac" d="M276,62V50a12,12 0 0 1 11.4,15.7z"/><path class="pl" style="stroke-width:3" d="M266,96h20M266,108h14"/><g transform="translate(106,128) scale(1.0)"><path fill="#B98B4E" d="M-31,0a31,31 0 0 1 62,0v46q-31,10 -62,0z"/><rect fill="#F1C7A5" x="-8" y="14" width="16" height="26" rx="6"/><path class="ac" d="M-46,96V64a30,30 0 0 1 30,-30h32a30,30 0 0 1 30,30V96z"/><path fill="#F1C7A5" d="M-11,33h22l-11,14z"/><circle fill="#F1C7A5" r="26"/><path fill="#B98B4E" d="M-27,2C-29,-20 -14,-30 0,-30C16,-30 29,-20 27,0C22,-10 12,-15 2,-13C-8,-11 -15,-4 -27,2z"/><circle fill="#E07A5F" fill-opacity=".3" cx="-15" cy="9" r="4.5"/><circle fill="#E07A5F" fill-opacity=".3" cx="15" cy="9" r="4.5"/><circle fill="#1F2427" cx="-9" cy="1" r="2.8"/><circle fill="#1F2427" cx="9" cy="1" r="2.8"/><path fill="none" stroke="#1F2427" stroke-width="2.4" stroke-linecap="round" d="M-7,10q7,7 14,0"/><g fill="none" stroke="#1F2427" stroke-width="2"><circle cx="-9" cy="1" r="7.5"/><circle cx="9" cy="1" r="7.5"/><path d="M-1.5,0h3"/></g></g><path fill="none" stroke="#000" stroke-opacity=".14" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M136,176 L164,146"/><path class="ar" d="M136,176 L164,146"/><circle fill="#F1C7A5" cx="164" cy="146" r="8"/><rect class="pp" x="184" y="150" width="104" height="72" rx="6"/><rect class="ac" x="184" y="150" width="104" height="16" rx="5"/><path class="pl" style="stroke-width:2" d="M184,180h104M184,194h104M184,208h104M218,166v56M252,166v56"/><rect class="ha" x="254" y="182" width="32" height="10" rx="2"/><rect class="dk2" x="58" y="236" width="204" height="60" rx="6"/><rect class="dk" x="30" y="222" width="260" height="16" rx="8"/><rect class="gr" x="52" y="208" width="58" height="14" rx="4"/></g>
+</svg>

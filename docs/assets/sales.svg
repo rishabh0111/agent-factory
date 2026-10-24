@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-labelledby="il-sales-t il-sales-d">
+<title id="il-sales-t">Sales specialist</title>
+<desc id="il-sales-d">A sales specialist shakes hands across the desk. Behind them, a pipeline board shows deals moving through four stages, with the won deal in green.</desc>
+<style>
+:root { color-scheme: light dark; }
+.bd { fill: #F3F5F6; }
+.pp { fill: #FFFFFF; stroke: #C9D1D6; stroke-width: 2; }
+.pf { fill: #FFFFFF; }
+.pl { fill: none; stroke: #C9D1D6; stroke-width: 3.5; stroke-linecap: round; }
+.dk { fill: #CDD5DA; }
+.dk2 { fill: #E1E7EA; }
+.gr { fill: #3A454B; }
+.grs { fill: none; stroke: #3A454B; stroke-linecap: round; stroke-linejoin: round; }
+.scr { fill: #121719; }
+.eye { fill: #E8EDEF; }
+.mu { fill: #77838A; }
+.mus { fill: none; stroke: #77838A; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ok { fill: #0B6A4C; }
+.oks { fill: #E2F1EA; }
+.okl { fill: none; stroke: #0B6A4C; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ck { fill: none; stroke: #FFFFFF; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+.no { fill: #B42318; }
+.nos { fill: #FBE4E1; }
+.wn { fill: #E3A83A; }
+.box { fill: #C99A62; }
+.box2 { fill: #A97C47; }
+.sl { fill: #4C6378; }
+.sla { fill: none; stroke: #4C6378; stroke-linecap: round; }
+.ink { fill: #121719; }
+.mono { font-family: "JetBrains Mono", "Cascadia Mono", Consolas, ui-monospace, Menlo, monospace; font-weight: 600; }
+@media (prefers-color-scheme: dark) {
+  .bd { fill: #161B1E; }
+  .pp { fill: #252D32; stroke: #3E4A50; }
+  .pf { fill: #252D32; }
+  .pl { stroke: #4E5B62; }
+  .dk { fill: #343E44; }
+  .dk2 { fill: #232A2E; }
+  .gr { fill: #56646C; }
+  .grs { stroke: #8C99A0; }
+  .scr { fill: #0B0F11; }
+  .mu { fill: #7D8A91; }
+  .mus { stroke: #7D8A91; }
+  .ok { fill: #5BD0A0; }
+  .oks { fill: #13342A; }
+  .okl { stroke: #5BD0A0; }
+  .ck { stroke: #062118; }
+  .no { fill: #FF8A7A; }
+  .nos { fill: #3D1C18; }
+  .sl { fill: #8EA3B8; }
+  .sla { stroke: #8EA3B8; }
+  .ink { fill: #E8EDEF; }
+}
+.ac { fill: #B8541B; }
+.acs { fill: none; stroke: #B8541B; stroke-linecap: round; stroke-linejoin: round; }
+.ar { fill: none; stroke: #B8541B; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
+.ha { fill: #FBE9DD; }
+@media (prefers-color-scheme: dark) { .ac { fill: #F29A62; } .acs, .ar { stroke: #F29A62; } .ha { fill: #3A2416; } }
+</style>
+<defs><clipPath id="il-sales-c"><rect x="8" y="8" width="304" height="304" rx="32"/></clipPath></defs>
+<rect class="bd" x="8" y="8" width="304" height="304" rx="32"/><g clip-path="url(#il-sales-c)"><circle class="ha" cx="160" cy="150" r="114"/><rect class="pp" x="176" y="40" width="120" height="100" rx="10"/><rect class="ac" fill-opacity=".35" x="190" y="56" width="19" height="13" rx="3"/><rect class="ac" fill-opacity=".35" x="190" y="74" width="19" height="13" rx="3"/><rect class="ac" fill-opacity=".35" x="190" y="92" width="19" height="13" rx="3"/><rect class="ac" fill-opacity=".35" x="190" y="110" width="19" height="13" rx="3"/><rect class="ac" fill-opacity=".55" x="215" y="56" width="19" height="13" rx="3"/><rect class="ac" fill-opacity=".55" x="215" y="74" width="19" height="13" rx="3"/><rect class="ac" fill-opacity=".55" x="215" y="92" width="19" height="13" rx="3"/><rect class="ac" fill-opacity=".8" x="240" y="56" width="19" height="13" rx="3"/><rect class="ac" fill-opacity=".8" x="240" y="74" width="19" height="13" rx="3"/><rect class="ok" x="265" y="56" width="19" height="13" rx="3"/><path class="mus" d="M190,128h88l-6,-5m6,5l-6,5"/><g transform="translate(104,128) scale(1.0)"><path fill="#8A4B2A" d="M-31,0a31,31 0 0 1 62,0v46q-31,10 -62,0z"/><rect fill="#F1C7A5" x="-8" y="14" width="16" height="26" rx="6"/><path class="ac" d="M-46,96V64a30,30 0 0 1 30,-30h32a30,30 0 0 1 30,30V96z"/><path fill="#F1C7A5" d="M-11,33h22l-11,14z"/><circle fill="#F1C7A5" r="26"/><path fill="#8A4B2A" d="M-27,2C-29,-20 -14,-30 0,-30C16,-30 29,-20 27,0C22,-10 12,-15 2,-13C-8,-11 -15,-4 -27,2z"/><circle fill="#E07A5F" fill-opacity=".3" cx="-15" cy="9" r="4.5"/><circle fill="#E07A5F" fill-opacity=".3" cx="15" cy="9" r="4.5"/><circle fill="#1F2427" cx="-9" cy="1" r="2.8"/><circle fill="#1F2427" cx="9" cy="1" r="2.8"/><path fill="none" stroke="#1F2427" stroke-width="2.4" stroke-linecap="round" d="M-7,10q7,7 14,0"/></g><path fill="none" stroke="#000" stroke-opacity=".14" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M136,180 L170,200 L198,198"/><path class="ar" d="M136,180 L170,200 L198,198"/><rect class="dk2" x="58" y="236" width="204" height="60" rx="6"/><rect class="dk" x="30" y="222" width="260" height="16" rx="8"/><path fill="none" stroke="#000" stroke-opacity=".14" stroke-width="19" stroke-linecap="round" d="M330,236L218,198"/><path class="sla" style="stroke-width:16" d="M330,236L218,198"/><rect fill="#A86B45" x="196" y="188" width="30" height="20" rx="10"/><ellipse fill="#F1C7A5" cx="200" cy="196" rx="11" ry="9"/><path fill="none" stroke="#A86B45" stroke-width="5" stroke-linecap="round" d="M203,190q6,-6 12,-2"/><rect class="pp" x="52" y="200" width="44" height="22" rx="4"/><path class="pl" d="M60,210h28"/></g>
+</svg>

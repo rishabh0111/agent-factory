@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 304" width="1200" height="304" role="img" aria-labelledby="af-how-t af-how-d">
+<title id="af-how-t">How a specialist works</title>
+<desc id="af-how-d">Four steps from left to right. One: your company.md, a single page about your products, customers, voice and limits. Two: a specialist, here support with a headset, reads it before starting. Three: the specialist picks one of its skill cards from a fan of three and runs it. Four: a person reviews the result and approves it with a green check.</desc>
+<style>
+:root { color-scheme: light dark; }
+.bd { fill: #F3F5F6; }
+.pp { fill: #FFFFFF; stroke: #C9D1D6; stroke-width: 2; }
+.pf { fill: #FFFFFF; }
+.pl { fill: none; stroke: #C9D1D6; stroke-width: 3.5; stroke-linecap: round; }
+.dk { fill: #CDD5DA; }
+.dk2 { fill: #E1E7EA; }
+.gr { fill: #3A454B; }
+.grs { fill: none; stroke: #3A454B; stroke-linecap: round; stroke-linejoin: round; }
+.scr { fill: #121719; }
+.eye { fill: #E8EDEF; }
+.mu { fill: #77838A; }
+.mus { fill: none; stroke: #77838A; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ok { fill: #0B6A4C; }
+.oks { fill: #E2F1EA; }
+.okl { fill: none; stroke: #0B6A4C; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ck { fill: none; stroke: #FFFFFF; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+.no { fill: #B42318; }
+.nos { fill: #FBE4E1; }
+.wn { fill: #E3A83A; }
+.box { fill: #C99A62; }
+.box2 { fill: #A97C47; }
+.sl { fill: #4C6378; }
+.sla { fill: none; stroke: #4C6378; stroke-linecap: round; }
+.ink { fill: #121719; }
+.mono { font-family: "JetBrains Mono", "Cascadia Mono", Consolas, ui-monospace, Menlo, monospace; font-weight: 600; }
+@media (prefers-color-scheme: dark) {
+  .bd { fill: #161B1E; }
+  .pp { fill: #252D32; stroke: #3E4A50; }
+  .pf { fill: #252D32; }
+  .pl { stroke: #4E5B62; }
+  .dk { fill: #343E44; }
+  .dk2 { fill: #232A2E; }
+  .gr { fill: #56646C; }
+  .grs { stroke: #8C99A0; }
+  .scr { fill: #0B0F11; }
+  .mu { fill: #7D8A91; }
+  .mus { stroke: #7D8A91; }
+  .ok { fill: #5BD0A0; }
+  .oks { fill: #13342A; }
+  .okl { stroke: #5BD0A0; }
+  .ck { stroke: #062118; }
+  .no { fill: #FF8A7A; }
+  .nos { fill: #3D1C18; }
+  .sl { fill: #8EA3B8; }
+  .sla { stroke: #8EA3B8; }
+  .ink { fill: #E8EDEF; }
+}
+.ac { fill: #2D67B3; }
+.acs { fill: none; stroke: #2D67B3; stroke-linecap: round; stroke-linejoin: round; }
+.ar { fill: none; stroke: #2D67B3; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
+.ha { fill: #E2ECF8; }
+@media (prefers-color-scheme: dark) { .ac { fill: #82B4EC; } .acs, .ar { stroke: #82B4EC; } .ha { fill: #172A40; } }
+.g-ac { fill: #0B6A4C; }
+.g-acs { fill: none; stroke: #0B6A4C; stroke-linecap: round; stroke-linejoin: round; }
+.g-ar { fill: none; stroke: #0B6A4C; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
+.g-ha { fill: #E2F1EA; }
+@media (prefers-color-scheme: dark) { .g-ac { fill: #5BD0A0; } .g-acs, .g-ar { stroke: #5BD0A0; } .g-ha { fill: #13342A; } }
+</style>
+
+<rect class="bd" x="12" y="12" width="270" height="280" rx="28"/><rect class="bd" x="314" y="12" width="270" height="280" rx="28"/><rect class="bd" x="616" y="12" width="270" height="280" rx="28"/><rect class="bd" x="918" y="12" width="270" height="280" rx="28"/><path class="mus" d="M288,152h18m-7,-7l7,7l-7,7"/><path class="mus" d="M590,152h18m-7,-7l7,7l-7,7"/><path class="mus" d="M892,152h18m-7,-7l7,7l-7,7"/><g transform="translate(12,12)"><circle class="g-ha" cx="135" cy="128" r="90"/><path class="pp" d="M88,46h68l28,28v122h-96z"/><path class="pp" style="fill:none" d="M156,46v28h28"/><rect class="gr" x="102" y="62" width="40" height="8" rx="4"/><circle fill="#2D67B3" cx="108" cy="92" r="5"/><path class="pl" d="M120,92h48"/><circle fill="#B8541B" cx="108" cy="112" r="5"/><path class="pl" d="M120,112h34"/><circle fill="#7346A8" cx="108" cy="132" r="5"/><path class="pl" d="M120,132h48"/><circle fill="#0F7C80" cx="108" cy="152" r="5"/><path class="pl" d="M120,152h34"/><circle fill="#B23A62" cx="108" cy="172" r="5"/><path class="pl" d="M120,172h48"/><text class="mono ink" x="135" y="240" text-anchor="middle" font-size="17">company.md</text></g><g transform="translate(314,12)"><circle class="ha" cx="135" cy="128" r="90"/><g transform="translate(135,104) scale(1.0)"><rect fill="#6E4429" x="-8" y="14" width="16" height="26" rx="6"/><path class="ac" d="M-46,136V64a30,30 0 0 1 30,-30h32a30,30 0 0 1 30,30V136z"/><path fill="#6E4429" d="M-11,33h22l-11,14z"/><circle fill="#6E4429" r="26"/><circle fill="#1E1A17" cx="-21" cy="-10" r="10"/><circle fill="#1E1A17" cx="-10" cy="-21" r="11"/><circle fill="#1E1A17" cx="6" cy="-23" r="11"/><circle fill="#1E1A17" cx="19" cy="-14" r="10"/><circle fill="#1E1A17" cx="-26" cy="2" r="7"/><circle fill="#1E1A17" cx="26" cy="0" r="7"/><circle fill="#E07A5F" fill-opacity=".3" cx="-15" cy="9" r="4.5"/><circle fill="#E07A5F" fill-opacity=".3" cx="15" cy="9" r="4.5"/><circle fill="#1F2427" cx="-9" cy="1" r="2.8"/><circle fill="#1F2427" cx="9" cy="1" r="2.8"/><path fill="none" stroke="#1F2427" stroke-width="2.4" stroke-linecap="round" d="M-7,10q7,7 14,0"/><path class="grs" style="stroke-width:5" d="M-30,2a30,30 0 0 1 60,0"/><rect class="gr" x="-36" y="-6" width="12" height="20" rx="5"/><rect class="gr" x="24" y="-6" width="12" height="20" rx="5"/></g><path fill="none" stroke="#000" stroke-opacity=".14" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M104,160 L106,196"/><path class="ar" d="M104,160 L106,196"/><path fill="none" stroke="#000" stroke-opacity=".14" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M166,160 L164,196"/><path class="ar" d="M166,160 L164,196"/><g transform="rotate(-4 135 196)"><path class="pp" d="M98,166h62l14,14v52h-76z"/><rect class="gr" x="108" y="178" width="26" height="6" rx="3"/><path class="pl" style="stroke-width:3" d="M108,196h50M108,208h38M108,220h46"/></g><circle fill="#6E4429" cx="102" cy="200" r="8"/><circle fill="#6E4429" cx="168" cy="196" r="8"/><path class="mus" style="stroke-width:2.5;stroke-dasharray:2 6" d="M120,140l-6,18M150,140l6,18"/></g><g transform="translate(616,12)"><circle class="ha" cx="135" cy="128" r="90"/><g transform="translate(89,164) rotate(-18)"><rect class="pp" x="-34" y="-48" width="68" height="96" rx="8"/><rect fill="#B8541B" x="-34" y="-48" width="68" height="14" rx="6"/><path class="pl" style="stroke-width:3" d="M-22,-16h44M-22,-4h30M-22,8h38"/></g><g transform="translate(181,164) rotate(18)"><rect class="pp" x="-34" y="-48" width="68" height="96" rx="8"/><rect fill="#7346A8" x="-34" y="-48" width="68" height="14" rx="6"/><path class="pl" style="stroke-width:3" d="M-22,-16h44M-22,-4h30M-22,8h38"/></g><g transform="translate(135,128)"><rect class="pp" x="-38" y="-54" width="76" height="106" rx="9"/><rect class="ac" x="-38" y="-54" width="76" height="16" rx="7"/><path class="pl" style="stroke-width:3" d="M-26,-20h52M-26,-6h36M-26,8h46"/><rect class="ha" x="-26" y="20" width="52" height="18" rx="4"/><path class="ac" d="M-6,23l12,6l-12,6z"/></g><path class="acs" style="stroke-width:3.5" d="M84,58l-10,-10M135,46v-14M186,58l10,-10"/></g><g transform="translate(918,12)"><circle class="g-ha" cx="135" cy="128" r="90"/><g transform="translate(96,112) scale(0.95)"><rect fill="#C68E62" x="-8" y="14" width="16" height="26" rx="6"/><path class="sl" d="M-46,146V64a30,30 0 0 1 30,-30h32a30,30 0 0 1 30,30V146z"/><path fill="#C68E62" d="M-11,33h22l-11,14z"/><circle fill="#C68E62" r="26"/><path fill="#2B211C" d="M-27,2C-29,-20 -14,-30 0,-30C16,-30 29,-20 27,0C22,-10 12,-15 2,-13C-8,-11 -15,-4 -27,2z"/><circle fill="#E07A5F" fill-opacity=".3" cx="-15" cy="9" r="4.5"/><circle fill="#E07A5F" fill-opacity=".3" cx="15" cy="9" r="4.5"/><circle fill="#1F2427" cx="-9" cy="1" r="2.8"/><circle fill="#1F2427" cx="9" cy="1" r="2.8"/><path fill="none" stroke="#1F2427" stroke-width="2.4" stroke-linecap="round" d="M-7,10q7,7 14,0"/></g><path fill="none" stroke="#000" stroke-opacity=".14" stroke-width="17" stroke-linecap="round" d="M124,162L160,128"/><path class="sla" style="stroke-width:14" d="M124,162L160,128"/><g transform="rotate(5 196 130)"><rect class="pp" x="158" y="66" width="80" height="104" rx="8"/><path class="pl" style="stroke-width:3" d="M172,86h52M172,100h40M172,114h46"/></g><circle class="ok" cx="198" cy="142" r="20"/><path class="ck" style="stroke-width:5.8" d="M188.8,142.8l6.3,6.3l12.5,-13.3"/><circle fill="#C68E62" cx="162" cy="126" r="8.5"/></g>
+</svg>

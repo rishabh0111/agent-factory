@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" width="240" height="180" role="img" aria-labelledby="af-sa-t af-sa-d">
+<title id="af-sa-t">Ask a specialist</title>
+<desc id="af-sa-d">A person asks a question in a speech bubble, and a specialist answers with a short draft marked with a green check.</desc>
+<style>
+:root { color-scheme: light dark; }
+.bd { fill: #F3F5F6; }
+.pp { fill: #FFFFFF; stroke: #C9D1D6; stroke-width: 2; }
+.pf { fill: #FFFFFF; }
+.pl { fill: none; stroke: #C9D1D6; stroke-width: 3.5; stroke-linecap: round; }
+.dk { fill: #CDD5DA; }
+.dk2 { fill: #E1E7EA; }
+.gr { fill: #3A454B; }
+.grs { fill: none; stroke: #3A454B; stroke-linecap: round; stroke-linejoin: round; }
+.scr { fill: #121719; }
+.eye { fill: #E8EDEF; }
+.mu { fill: #77838A; }
+.mus { fill: none; stroke: #77838A; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ok { fill: #0B6A4C; }
+.oks { fill: #E2F1EA; }
+.okl { fill: none; stroke: #0B6A4C; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.ck { fill: none; stroke: #FFFFFF; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+.no { fill: #B42318; }
+.nos { fill: #FBE4E1; }
+.wn { fill: #E3A83A; }
+.box { fill: #C99A62; }
+.box2 { fill: #A97C47; }
+.sl { fill: #4C6378; }
+.sla { fill: none; stroke: #4C6378; stroke-linecap: round; }
+.ink { fill: #121719; }
+.mono { font-family: "JetBrains Mono", "Cascadia Mono", Consolas, ui-monospace, Menlo, monospace; font-weight: 600; }
+@media (prefers-color-scheme: dark) {
+  .bd { fill: #161B1E; }
+  .pp { fill: #252D32; stroke: #3E4A50; }
+  .pf { fill: #252D32; }
+  .pl { stroke: #4E5B62; }
+  .dk { fill: #343E44; }
+  .dk2 { fill: #232A2E; }
+  .gr { fill: #56646C; }
+  .grs { stroke: #8C99A0; }
+  .scr { fill: #0B0F11; }
+  .mu { fill: #7D8A91; }
+  .mus { stroke: #7D8A91; }
+  .ok { fill: #5BD0A0; }
+  .oks { fill: #13342A; }
+  .okl { stroke: #5BD0A0; }
+  .ck { stroke: #062118; }
+  .no { fill: #FF8A7A; }
+  .nos { fill: #3D1C18; }
+  .sl { fill: #8EA3B8; }
+  .sla { stroke: #8EA3B8; }
+  .ink { fill: #E8EDEF; }
+}
+.ac { fill: #0B6A4C; }
+.acs { fill: none; stroke: #0B6A4C; stroke-linecap: round; stroke-linejoin: round; }
+.ar { fill: none; stroke: #0B6A4C; stroke-width: 15; stroke-linecap: round; stroke-linejoin: round; }
+.ha { fill: #E2F1EA; }
+@media (prefers-color-scheme: dark) { .ac { fill: #5BD0A0; } .acs, .ar { stroke: #5BD0A0; } .ha { fill: #13342A; } }
+</style>
+<defs><clipPath id="af-sa-c"><rect x="6" y="6" width="228" height="168" rx="24"/></clipPath></defs>
+<rect class="bd" x="6" y="6" width="228" height="168" rx="24"/><g clip-path="url(#af-sa-c)"><ellipse class="ha" cx="120" cy="96" rx="92" ry="70"/><g transform="translate(64,104) scale(0.66)"><rect fill="#A86B45" x="-8" y="14" width="16" height="26" rx="6"/><path class="sl" d="M-46,116V64a30,30 0 0 1 30,-30h32a30,30 0 0 1 30,30V116z"/><path fill="#A86B45" d="M-11,33h22l-11,14z"/><circle fill="#A86B45" r="26"/><path fill="#1A1A1A" d="M-27,2C-29,-20 -14,-30 0,-30C16,-30 29,-20 27,0C22,-10 12,-15 2,-13C-8,-11 -15,-4 -27,2z"/><circle fill="#1A1A1A" cy="-33" r="11"/><circle fill="#E07A5F" fill-opacity=".3" cx="-15" cy="9" r="4.5"/><circle fill="#E07A5F" fill-opacity=".3" cx="15" cy="9" r="4.5"/><circle fill="#1F2427" cx="-9" cy="1" r="2.8"/><circle fill="#1F2427" cx="9" cy="1" r="2.8"/><path fill="none" stroke="#1F2427" stroke-width="2.4" stroke-linecap="round" d="M-7,10q7,7 14,0"/></g><path class="pp" d="M100,30h88a10,10 0 0 1 10,10v20a10,10 0 0 1 -10,10h-70l-14,12v-12h-4a10,10 0 0 1 -10,-10v-20a10,10 0 0 1 10,-10z"/><circle class="gr" cx="128" cy="50" r="4.5"/><circle class="gr" cx="144" cy="50" r="4.5"/><circle class="gr" cx="160" cy="50" r="4.5"/><rect class="pp" x="118" y="92" width="86" height="62" rx="8"/><rect fill="#7346A8" x="118" y="92" width="86" height="12" rx="6"/><path class="pl" style="stroke-width:3" d="M130,118h44M130,130h30M130,142h38"/><circle class="ok" cx="198" cy="142" r="12"/><path class="ck" style="stroke-width:3.5" d="M192.5,142.5l3.8,3.8l7.5,-8.0"/></g>
+</svg>
