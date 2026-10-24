@@ -7,6 +7,8 @@
 // Outputs (each only between its markers; everything else is left as it is):
 //   docs/index.html                       <!-- team:start --> ... <!-- team:end -->      team grid
 //   README.md                             <!-- team:start --> ... <!-- team:end -->      specialists table
+//   README.md                             <!-- team-grid:start --> ... <!-- team-grid:end -->  illustrated team grid
+//   README.md                             <!-- core:start --> ... <!-- core:end -->      af-core commands table
 //   plugins/<id>/agents/<agent>.md        <!-- skills:start --> ... <!-- skills:end -->  skills list, marking the
 //                                         skills docs/team.json lists under "interviews"
 //   plugins/<id>/README.md                <!-- skills:start --> ... <!-- skills:end -->  skill and command table
@@ -105,6 +107,48 @@ function readmeTable() {
     "| Plugin | Specialist | Works on |",
     "|---|---|---|",
     ...team.map((t) => `| \`${t.id}\` | ${mdCell(t.agent)} | ${mdCell(t.line)} |`),
+  ].join("\n");
+}
+
+// The README's illustrated grid: one cell per department, GRID_COLUMNS to a row,
+// each with the role illustration (or the default portrait), the name linked to
+// its plugin folder, the one-line summary and the plugin name.
+const GRID_COLUMNS = 3;
+
+function gridCell(t) {
+  const illustration = t.illustration || "assets/role-default.svg";
+  const alt = t.illustration ? svgTitle(join(DOCS, t.illustration)) : `${t.name} specialist`;
+  return [
+    `<td align="center" valign="top" width="${Math.floor(100 / GRID_COLUMNS)}%">`,
+    `<img src="docs/${esc(illustration)}" alt="${esc(alt)}" width="140" height="140"><br>`,
+    `<a href="plugins/${esc(t.id)}"><b>${esc(t.name)}</b></a><br>`,
+    `<sub>${esc(t.line)}</sub><br>`,
+    `<code>${esc(t.id)}</code>`,
+    `</td>`,
+  ].join("");
+}
+
+function readmeGrid() {
+  const rows = [];
+  for (let i = 0; i < team.length; i += GRID_COLUMNS) {
+    const cells = team.slice(i, i + GRID_COLUMNS).map(gridCell);
+    while (cells.length < GRID_COLUMNS) cells.push(`<td width="${Math.floor(100 / GRID_COLUMNS)}%"></td>`);
+    rows.push(["<tr>", ...cells, "</tr>"].join("\n"));
+  }
+  return [
+    `${team.length} departments, each a plugin with one specialist and its skills.`,
+    "",
+    "<table>",
+    ...rows,
+    "</table>",
+  ].join("\n");
+}
+
+function readmeCore() {
+  return [
+    "| Command | What it does |",
+    "|---|---|",
+    ...skillsOf("af-core").map((s) => `| \`/${s.name}\` | ${mdCell(s.what).replace(/\s+/g, " ").trim()} |`),
   ].join("\n");
 }
 
@@ -256,6 +300,8 @@ function fill(text, name, body, file) {
 const jobs = [
   { file: join(DOCS, "index.html"), name: "team", body: () => team.map(card).join("\n") },
   { file: join(ROOT, "README.md"), name: "team", body: readmeTable },
+  { file: join(ROOT, "README.md"), name: "team-grid", body: readmeGrid },
+  { file: join(ROOT, "README.md"), name: "core", body: readmeCore },
   ...team.map((t) => ({ file: join(ROOT, "plugins", t.id, "agents", `${t.agent}.md`), name: "skills", body: () => skillsList(t) })),
   ...team.map((t) => ({ file: join(ROOT, "plugins", t.id, "README.md"), name: "skills", body: () => readmeSkills(t.id) })),
   { file: join(ROOT, "plugins", "af-core", "skills", "af-ask", "catalog.md"), whole: catalog },
