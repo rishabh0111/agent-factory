@@ -1,0 +1,20 @@
+{
+  "name": "agent-factory",
+  "owner": { "name": "rishabh0111", "url": "https://github.com/rishabh0111" },
+  "metadata": { "description": "Specialist agents for company work, one per department, each running its department's skills." },
+  "plugins": [
+    { "name": "af-core", "source": "./plugins/af-core", "description": "/af-setup for company.md, /af-ask for finding a specialist, and /af-add-specialist for adding departments." },
+    { "name": "af-customer-support", "source": "./plugins/af-customer-support", "description": "Support specialist (support-specialist) and its department skills." },
+    { "name": "af-sales", "source": "./plugins/af-sales", "description": "Sales specialist (sales-specialist) and its department skills." },
+    { "name": "af-finance", "source": "./plugins/af-finance", "description": "Finance specialist (finance-specialist) and its department skills." },
+    { "name": "af-legal", "source": "./plugins/af-legal", "description": "Legal specialist (legal-specialist) and its department skills." },
+    { "name": "af-human-resources", "source": "./plugins/af-human-resources", "description": "HR specialist (hr-specialist) and its department skills." },
+    { "name": "af-operations", "source": "./plugins/af-operations", "description": "Operations specialist (ops-specialist) and its department skills." },
+    { "name": "af-data", "source": "./plugins/af-data", "description": "Data specialist (data-specialist) and its department skills." },
+    { "name": "af-design", "source": "./plugins/af-design", "description": "Design specialist (design-specialist) and its department skills." },
+    { "name": "af-product-management", "source": "./plugins/af-product-management", "description": "Product specialist (product-specialist) and its department skills." },
+    { "name": "af-marketing", "source": "./plugins/af-marketing", "description": "Marketing specialist (marketing-specialist) and its department skills." },
+    { "name": "af-leadership", "source": "./plugins/af-leadership", "description": "Leadership specialist (ceo-advisor) and its department skills." },
+    { "name": "af-small-business", "source": "./plugins/af-small-business", "description": "Small-business specialist (small-business-specialist) and its department skills." }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "af-core",
+  "version": "1.0.0",
+  "description": "/af-setup for company.md, /af-ask for finding a specialist, and /af-add-specialist for adding departments.",
+  "author": { "name": "rishabh0111", "url": "https://github.com/rishabh0111" },
+  "repository": "https://github.com/rishabh0111/agent-factory"
+}
